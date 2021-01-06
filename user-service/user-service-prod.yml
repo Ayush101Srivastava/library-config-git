@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  profiles: prod
+server:
+  port: 9003

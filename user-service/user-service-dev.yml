@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  profiles: dev
+server:
+  port: 7003
