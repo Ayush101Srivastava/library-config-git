@@ -5,8 +5,6 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     url: "jdbc:postgresql://localhost:5433/book_service"
-    username: 
-    password: 
   profiles: prod
 server:
   port: 9001
